@@ -79,7 +79,7 @@ function draw(){
     //log6.display();
     slingshot.display();  
     //console.log(bird.trajectory); 
-    console.log(bird.body);
+    //console.log(bird.body);
 }
 
 function mouseDragged(){
@@ -119,5 +119,5 @@ async function getBackgroundImg(){
     }
 
     backgroundImg = loadImage(bg);
-    console.log(backgroundImg);
+    //console.log(backgroundImg);
 }
